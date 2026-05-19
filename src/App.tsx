@@ -7,13 +7,13 @@ import LGBTQ from './components/LGBTQ'
 import Testimonials from './components/Testimonials'
 import ContactCTA from './components/ContactCTA'
 import Footer from './components/Footer'
-import MobileNavAlt from './components/MobileNavAlt'
+import MobileNav from './components/MobileNav'
 
 export default function App(){
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-amber-50 to-white">
       <header className="max-w-6xl mx-auto px-6 pt-6">
-        <MobileNavAlt />
+        <MobileNav />
         <div className="sticky top-6 z-50 hidden md:block">
           <nav className="flex items-center justify-between bg-white/70 backdrop-blur-md border border-white/50 rounded-xl px-5 py-3 shadow-soft">
             <div className="flex items-center gap-4">
