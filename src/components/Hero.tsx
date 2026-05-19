@@ -21,10 +21,10 @@ export default function Hero(){
         <div className="mt-6 text-sm text-slate-500">Atendimento para compradores de primeira viagem com paciência, empatia e passos claros.</div>
       </div>
 
-      <motion.div initial={{ scale:0.95, opacity:0 }} animate={{ scale:1, opacity:1 }} transition={{duration:0.6}} className="order-1 md:order-2 flex justify-center md:justify-end">
-        <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-xl shadow-soft overflow-hidden">
+      <motion.div initial={{ scale:0.95, opacity:0 }} animate={{ scale:1, opacity:1 }} transition={{duration:0.6}} className="order-1 md:order-2 flex justify-center md:justify-end -mx-6 sm:mx-0">
+        <div className="relative w-full h-72 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-none sm:rounded-xl shadow-soft overflow-hidden">
           <div className="absolute inset-0 bg-gradient-to-tr from-brand-400 to-accent-500 opacity-80"></div>
-          <img src={avatar} alt="Patrick" className="relative w-full h-full object-cover rounded-xl"/>
+          <img src={avatar} alt="Patrick" className="relative w-full h-full object-cover rounded-none sm:rounded-xl"/>
         </div>
       </motion.div>
     </section>
