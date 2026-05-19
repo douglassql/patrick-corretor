@@ -35,5 +35,4 @@ Deployment
 Observações
 
 - A imagem do avatar está em `assets/img/avatar.png` e é usada no hero, cabeçalho e rodapé.
--- O WhatsApp do Patrick: +55 11 98538-4538 (`https://wa.me/5511985384538`).
--- Email: patrick.penna@associadonv.com.br
+- Substitua o link do WhatsApp em `src/components/ContactCTA.tsx` pelo número do Patrick.

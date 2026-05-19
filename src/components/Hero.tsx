@@ -22,7 +22,7 @@ export default function Hero(){
 
       <motion.div initial={{ scale:0.95, opacity:0 }} animate={{ scale:1, opacity:1 }} transition={{duration:0.6}} className="order-1 md:order-2 flex justify-center md:justify-end">
         <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-xl shadow-soft overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-tr from-brand-500 to-accent-500 opacity-85"></div>
+          <div className="absolute inset-0 bg-gradient-to-tr from-brand-400 to-accent-500 opacity-80"></div>
           <img src="/assets/img/avatar.png" alt="Patrick" className="relative w-full h-full object-cover rounded-xl"/>
         </div>
       </motion.div>

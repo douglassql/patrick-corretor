@@ -11,7 +11,7 @@ export default function Footer(){
             <div className="text-sm text-slate-600">Apoio a compradores de primeira viagem</div>
           </div>
         </div>
-        <div className="text-sm text-slate-600">© {new Date().getFullYear()} Patrick — Todos os direitos reservados · <a href="mailto:patrick.penna@associadonv.com.br" className="underline">patrick.penna@associadonv.com.br</a></div>
+        <div className="text-sm text-slate-600">© {new Date().getFullYear()} Patrick — Todos os direitos reservados</div>
       </div>
     </footer>
   )
