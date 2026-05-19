@@ -7,6 +7,7 @@ import LGBTQ from './components/LGBTQ'
 import Testimonials from './components/Testimonials'
 import ContactCTA from './components/ContactCTA'
 import Footer from './components/Footer'
+import FloatingWhatsApp from './components/FloatingWhatsApp'
 
 export default function App(){
   return (
@@ -43,6 +44,7 @@ export default function App(){
       </main>
 
       <Footer />
+      <FloatingWhatsApp />
     </div>
   )
 }
