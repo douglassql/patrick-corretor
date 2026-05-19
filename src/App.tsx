@@ -7,11 +7,13 @@ import LGBTQ from './components/LGBTQ'
 import Testimonials from './components/Testimonials'
 import ContactCTA from './components/ContactCTA'
 import Footer from './components/Footer'
+import MobileNavAlt from './components/MobileNavAlt'
 
 export default function App(){
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-amber-50 to-white">
       <header className="max-w-6xl mx-auto px-6 pt-6">
+        <MobileNavAlt />
         <nav className="flex items-center justify-between">
           <div className="flex items-center gap-3">
             <img src="/assets/img/avatar.png" alt="Patrick avatar" className="w-10 h-10 rounded-full ring-2 ring-brand-200 object-cover"/>
