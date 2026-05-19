@@ -14,18 +14,24 @@ export default function App(){
     <div className="min-h-screen bg-gradient-to-b from-white via-amber-50 to-white">
       <header className="max-w-6xl mx-auto px-6 pt-6">
         <MobileNavAlt />
-        <nav className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <img src="/assets/img/avatar.png" alt="Patrick avatar" className="w-10 h-10 rounded-full ring-2 ring-brand-200 object-cover"/>
-            <div className="text-lg font-semibold">Patrick Corretor</div>
-          </div>
-          <div className="hidden md:flex gap-6 items-center text-sm text-slate-600">
-            <a href="#featured">Apartamentos</a>
-            <a href="#why">Por que escolher</a>
-            <a href="#finance">Financiamento</a>
-            <a href="#contact" className="px-4 py-2 bg-brand-600 text-white rounded-xl shadow-soft">Contato</a>
-          </div>
-        </nav>
+        <div className="sticky top-6 z-50 hidden md:block">
+          <nav className="flex items-center justify-between bg-white/70 backdrop-blur-md border border-white/50 rounded-xl px-5 py-3 shadow-soft">
+            <div className="flex items-center gap-4">
+              <img src="/assets/img/avatar.png" alt="Patrick avatar" className="w-12 h-12 rounded-full ring-4 ring-primary-100 object-cover"/>
+              <div>
+                <div className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-accent-400">Patrick Corretor</div>
+                <div className="text-xs text-slate-500">Corretor para primeira casa</div>
+              </div>
+            </div>
+
+            <div className="hidden md:flex gap-6 items-center text-sm">
+              <a href="#featured" className="px-4 py-2 rounded-full hover:bg-white/80 text-slate-700">Apartamentos</a>
+              <a href="#why" className="px-4 py-2 rounded-full hover:bg-white/80 text-slate-700">Por que escolher</a>
+              <a href="#finance" className="px-4 py-2 rounded-full hover:bg-white/80 text-slate-700">Financiamento</a>
+              <a href="#contact" className="px-4 py-2 bg-gradient-to-r from-primary-500 to-accent-400 text-white rounded-full shadow">Contato</a>
+            </div>
+          </nav>
+        </div>
       </header>
 
       <main className="max-w-6xl mx-auto px-6">
