@@ -18,10 +18,12 @@ export default function MobileNav(){
   return (
     <div className="md:hidden">
       <div className="fixed top-4 left-4 z-50">
-        <button aria-label="Abrir menu" onClick={()=>setOpen(true)} className="p-2 bg-white/90 backdrop-blur-sm rounded-md shadow">
-          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M4 6h16M4 12h16M4 18h16" stroke="#0f172a" strokeWidth="1.6" strokeLinecap="round" strokeLinejoin="round" />
-          </svg>
+        <button aria-label="Abrir menu" onClick={()=>setOpen(true)} className="p-2 bg-white/90 backdrop-blur-sm rounded-md shadow flex items-center justify-center">
+          <div className="relative w-6 h-6">
+            <span className={`absolute left-0 top-0 w-6 h-0.5 bg-slate-900 transition-transform duration-300 ${open ? 'translate-y-2 rotate-45' : ''}`}></span>
+            <span className={`absolute left-0 top-2 w-6 h-0.5 bg-slate-900 transition-opacity duration-200 ${open ? 'opacity-0' : 'opacity-100'}`}></span>
+            <span className={`absolute left-0 top-4 w-6 h-0.5 bg-slate-900 transition-transform duration-300 ${open ? '-translate-y-2 -rotate-45' : ''}`}></span>
+          </div>
         </button>
       </div>
 
