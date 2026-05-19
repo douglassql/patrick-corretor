@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react'
+import avatar from '../../assets/img/avatar.png'
 import { motion, AnimatePresence } from 'framer-motion'
 
 export default function MobileNav(){
@@ -30,7 +31,7 @@ export default function MobileNav(){
             <div className="p-4">
               <div className="flex items-center justify-between">
                 <div className="flex items-center gap-3">
-                  <img src="/assets/img/avatar.png" alt="Patrick" className="w-10 h-10 rounded-full object-cover"/>
+                  <img src={avatar} alt="Patrick" className="w-10 h-10 rounded-full object-cover"/>
                   <div className="font-bold">Patrick Corretor</div>
                 </div>
                 <button onClick={close} aria-label="Fechar menu" className="px-3 py-2">Fechar</button>

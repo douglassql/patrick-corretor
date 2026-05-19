@@ -1,4 +1,5 @@
 import React from 'react'
+import avatar from '../assets/img/avatar.png'
 import Hero from './components/Hero'
 import Featured from './components/Featured'
 import WhyChoose from './components/WhyChoose'
@@ -17,7 +18,7 @@ export default function App(){
         <div className="sticky top-6 z-50 hidden md:block">
           <nav className="flex items-center justify-between bg-white/70 backdrop-blur-md border border-white/50 rounded-xl px-5 py-3 shadow-soft">
             <div className="flex items-center gap-4">
-              <img src="/assets/img/avatar.png" alt="Patrick avatar" className="w-12 h-12 rounded-full ring-4 ring-primary-100 object-cover"/>
+              <img src={avatar} alt="Patrick avatar" className="w-12 h-12 rounded-full ring-4 ring-primary-100 object-cover"/>
               <div>
                 <div className="text-lg font-bold bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-accent-400">Patrick Corretor</div>
                 <div className="text-xs text-slate-500">Corretor para primeira casa</div>
