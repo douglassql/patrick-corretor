@@ -8,14 +8,12 @@ import Testimonials from './components/Testimonials'
 import ContactCTA from './components/ContactCTA'
 import Footer from './components/Footer'
 import FloatingWhatsApp from './components/FloatingWhatsApp'
-import MobileNav from './components/MobileNav'
 
 export default function App(){
   return (
     <div className="min-h-screen bg-gradient-to-b from-white via-amber-50 to-white">
       <header className="max-w-6xl mx-auto px-6 pt-6">
-        <MobileNav />
-        <div className="sticky top-6 z-50 hidden md:block">
+        <div className="sticky top-6 z-50">
           <nav className="flex items-center justify-between bg-white/60 backdrop-blur-md border border-white/60 rounded-xl px-4 py-3 shadow-soft">
             <div className="flex items-center gap-3">
               <img src="/assets/img/avatar.png" alt="Patrick avatar" className="w-12 h-12 rounded-full ring-4 ring-brand-100 object-cover"/>
