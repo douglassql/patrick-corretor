@@ -23,7 +23,7 @@ export default function Featured(){
               <div className="text-sm text-slate-500">{item.area}</div>
             </div>
             <div className="mt-3 flex gap-2">
-              <button className="px-3 py-2 bg-brand-400 text-white rounded-lg text-sm">Ver</button>
+              <button className="px-3 py-2 bg-brand-500 text-white rounded-lg text-sm">Ver</button>
               <button className="px-3 py-2 border rounded-lg text-sm">Salvar</button>
             </div>
           </article>

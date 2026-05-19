@@ -9,7 +9,8 @@ export default function ContactCTA(){
           <p className="mt-1 text-slate-600">Conversas rápidas e sem pressão para explorar opções.</p>
         </div>
         <div className="flex gap-3">
-          <a href="https://wa.me/" target="_blank" className="px-4 py-3 bg-green-500 text-white rounded-xl shadow-soft">WhatsApp (fale com Patrick)</a>
+          <a href="https://wa.me/5511985384538" target="_blank" rel="noreferrer" className="px-4 py-3 bg-green-500 text-white rounded-xl shadow-soft">WhatsApp (fale com Patrick)</a>
+          <a href="mailto:patrick.penna@associadonv.com.br" className="px-4 py-3 bg-slate-800 text-white rounded-xl">Enviar email</a>
           <a href="#featured" className="px-4 py-3 border rounded-xl">Ver imóveis</a>
         </div>
       </div>
