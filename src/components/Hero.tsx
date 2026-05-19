@@ -25,7 +25,7 @@ export default function Hero(){
         <div className="relative w-full h-72 sm:w-64 sm:h-64 md:w-80 md:h-80 rounded-none sm:rounded-xl shadow-soft overflow-hidden bg-gradient-to-tr from-brand-400 to-accent-500 p-3 sm:p-0">
           <div className="absolute inset-0 bg-gradient-to-tr from-brand-400 to-accent-500 opacity-80"></div>
           <div className="absolute inset-x-0 bottom-0 h-20 bg-gradient-to-t from-white/90 to-transparent sm:hidden"></div>
-          <img src={avatar} alt="Patrick" className="relative z-10 w-full h-full object-contain object-center rounded-none sm:rounded-xl"/>
+          <img src={avatar} alt="Patrick" className="relative z-10 w-full h-full object-contain object-bottom rounded-none sm:rounded-xl"/>
         </div>
       </motion.div>
     </section>
